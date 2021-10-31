@@ -1,0 +1,30 @@
+.brand:link{
+    width : 40% ;
+    height: 40%;
+    /*display : left;*/
+    float : left;
+}
+
+ul{
+    list-style-type: None;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+}
+.navbar {
+    background: #304ffe;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar_menu{
+    align-items: right;
+}
+
